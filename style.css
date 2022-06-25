@@ -60,8 +60,72 @@
 .four-pics {
     display: flex;
     justify-content: space-around;
+    padding: 50px 0 0 0;
 }
 .subtext {
     display: flex;
     flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    padding: 0 0 100px 0;
+}
+.first, .second, .third, .fourth {
+    padding: 0 50px 0 50px;
+    width: 200px;
+}
+.section-three {
+    background-color: #e5e7eb;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 100px 100px 0 100px;
+}
+.thor {
+    font-size: 18px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 400px 100px 0;
+}
+.cross, .fit, .up, .roar {
+    border-radius: 10%;
+    width: 200px;
+    height: auto;
+}
+.section-four {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    margin: 50px 0 50px 0;
+}
+.left-bottom {
+    display: flex;
+    flex-direction: column;
+}
+.call {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+    padding: 0 0 10px 0;
+}
+.product {
+    color: #e5e7eb;
+}
+.button-bottom {
+    color: #f9faf8;
+    font-size: 18px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color:#3882f6;
+    padding:0.6em;
+    margin: 0 0.3em 0.3em 0;
+    text-align: center;
+    border-radius: 2em;
+    text-decoration: none;
+    max-width: 100px;
+    border-style: double;
+    border-color: #f9faf8;
 }
